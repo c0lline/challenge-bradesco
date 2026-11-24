@@ -1,0 +1,72 @@
+:root{
+    --fundo: #F4F7FA;
+    --sec-color: #9C0D21;
+    --third-color: #000000;
+    --fonte: 'Outfit', sans-serif;
+    --glass-effect-fundo: rgba(255, 255, 255, 0.12);
+    --glass-shadow: rgba(0, 0, 0, 0.2);
+    --glass-border: rgba(255, 255, 255, 0.25);
+}
+
+*{
+    margin: 0;
+}
+
+body {
+    min-height: 200vh;  
+      background-color: var(--fundo);
+      font-family: var(--fonte);
+      color: var(--sec-color);
+    }
+
+    .header-glass {
+      position: fixed;
+      top: 16px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: min(92%, 1100px);
+      padding: 14px 24px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      border-radius: 16px;
+      background: var(--glass-effect-fundo);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border: 1px solid var(--glass-border);
+      box-shadow: 0 8px 32px var(--glass-shadow);
+      z-index: 1000;
+    }
+
+    .header-glass nav {
+      display: flex;
+      gap: 20px;
+    }
+
+    .header-glass a{
+      color: var(--third-color);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .header-glass a:hover{
+        color: var(--sec-color);
+    }
+
+    .conteudo {
+        display: flex;
+        padding: 4rem 6rem;
+    }
+    
+    .telasimg{
+        width: 300px;
+    }
+
+    .right-container{
+        padding: 5rem;
+    }
+
+    .right-container p{
+        padding: 30px 0;
+    }
