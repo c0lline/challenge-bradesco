@@ -67,6 +67,7 @@ body {
 
     .telasimg{
         width: 300px;
+        transform: translateY(90px);
     }
 
     .right-container{
@@ -77,8 +78,23 @@ body {
         padding: 30px 0;
     }
 
-.contexto{
-    display:flex;
-    flex-direction: column;
-    gap: 20px;
+    .ul-list{
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .ul-list p{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+    .ul-list li {
+        background-color: var(--sec-color);
+        border: 1px solid #e5e5e5;
+        color: var(--fundo);
+        border-radius: 15px;
+        padding: 2px 15px 15px;
+        margin-bottom: 10px;
 }
