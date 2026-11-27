@@ -118,3 +118,81 @@ body {
     width: 60%;
     font-size: 20px;
 }
+
+
+.visual {
+    margin: 0 6rem;
+    background-color: var(--branco);
+    justify-content: space-between;
+    border-radius: 50px;
+}
+
+.visual h1 {
+    padding: 4rem 6rem 0;
+}
+
+
+.tipografia {
+    padding: 0 150px;
+}
+
+.tit2{
+    font-size: 40px;
+    font-weight: 300;
+}
+
+
+.color-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.color-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.color-box {
+    width: 105px;
+    height: 85px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+}
+
+.color-box span {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.vermelho {
+    background: var(--vermelho);
+    color: var(--branco);
+}
+
+.vinho {
+    background: var(--sec-color);
+    color: var(--branco);
+}
+
+.cinza {
+    background: var(--cinza);
+}
+
+.color-description h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.color-description p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--third-color);
+    max-width: 230px;
+    }
