@@ -98,3 +98,30 @@ body {
         padding: 2px 15px 15px;
         margin-bottom: 10px;
 }
+
+.interface{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.container-interface{
+    padding: 4rem 6rem;
+}
+
+.container-interface img {
+    width: 400px;
+    display: block;
+    border-radius: 15px;
+    border: 1px solid #000000;
+}
+
+.right-container-interface{
+    padding: 5rem;
+}
+
+.right-container-interface p{
+    padding: 30px 0;
+    width: 60%;
+    font-size: 20px;
+}
