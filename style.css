@@ -76,7 +76,22 @@ body {
 }
 
 
+.ul-list p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
 
+.ul-list li {
+    background-color: var(--sec-color);
+    border: 1px solid #e5e5e5;
+    color: var(--fundo);
+    border-radius: 15px;
+    padding: 2px 15px 15px;
+    margin-bottom: 10px;
+}
 
 .visual {
     margin: 0 6rem;
@@ -94,7 +109,7 @@ body {
     padding: 0 150px;
 }
 
-.tit2{
+.tit2 {
     font-size: 40px;
     font-weight: 300;
 }
@@ -153,4 +168,31 @@ body {
     line-height: 1.5;
     color: var(--third-color);
     max-width: 230px;
+}
+
+.interface{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.container-interface{
+    padding: 4rem 6rem;
+}
+
+.container-interface img {
+    width: 400px;
+    display: block;
+    border-radius: 15px;
+    border: 1px solid #000000;
+}
+
+.right-container-interface{
+    padding: 5rem;
+}
+
+.right-container-interface p{
+    padding: 30px 0;
+    width: 60%;
+    font-size: 15px;
 }
